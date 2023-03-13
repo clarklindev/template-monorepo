@@ -1,18 +1,18 @@
 {
   "name": "@swagfinger/module-b",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.20"
   },
   "bin": {
-    "mdb":"./index.js"
+    "mdb": "./index.js"
   },
   "publishConfig": {
     "access": "public"
   },
-  "scripts":{
-    "build":"node ./index.js"
+  "scripts": {
+    "build": "node ./index.js"
   }
 }

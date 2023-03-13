@@ -1,12 +1,12 @@
 {
   "name": "@swagfinger/module-a",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@swagfinger/module-b": "^0.0.1",
     "lodash": "^4.17.20",
-    "react": "^18.2.0",
-    "@swagfinger/module-b": "1.0.0"
+    "react": "^18.2.0"
   },
   "scripts": {
     "start": "mdb",
