@@ -194,3 +194,10 @@ yarn lerna run build
 ```shell
 yarn lerna run build --parallel
 ```
+---------------------------------------------------------------------------
+
+## publishing packages
+
+```
+yarn lerna publish
+```
