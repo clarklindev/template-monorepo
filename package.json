@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-beginners",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "swagfinger <swagfinger@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/lodash"
+    ]
+  },
+  "scripts": {
+    "start": "mdb",
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
