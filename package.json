@@ -9,13 +9,9 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": [
-      "**/lodash"
     ]
   },
   "scripts": {
-    "start": "mdb",
     "lerna": "lerna"
   },
   "devDependencies": {

@@ -105,7 +105,7 @@ console.log('I am module-b');
 ```
 
 ### changing directories
-- you can create scripts for building form a package
+- you can create scripts for building from a package
 - run from anywhere: you can call its packages script: 'yarn workspace <name of package> <command>' 
 - you can use the workspace/package syntax to add packages 'yarn worksapce <name of package> add <npm package>'
 
