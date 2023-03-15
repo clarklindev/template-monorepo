@@ -106,8 +106,8 @@ console.log('I am module-b');
 
 ### changing directories
 - you can create scripts for building from a package
-- run from anywhere: you can call its packages script: 'yarn workspace <name of package> <command>' 
-- you can use the workspace/package syntax to add packages 'yarn worksapce <name of package> add <npm package>'
+- run from anywhere: you can call its packages script: 'yarn workspace <full name of package> <command>' 
+- you can use the workspace/package syntax to add packages 'yarn workspace <full name of package> add <npm package>'
 
 ```js
 //module-a/package.json
@@ -121,9 +121,9 @@ console.log('I am module-b');
 
 ```shell
 # root directory
-yarn workspace module-a build
+yarn workspace @swagfinger/module-a build
 
-yarn workspace module-a add react
+yarn workspace @swagfinger/module-a add react
 ```
 
 ## managing and publishing with Lerna

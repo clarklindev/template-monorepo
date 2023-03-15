@@ -12,7 +12,8 @@
     ]
   },
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "start": "yarn workspace @swagfinger/module-a start"
   },
   "devDependencies": {
     "lerna": "^6.5.1"
